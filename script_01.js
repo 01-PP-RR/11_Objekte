@@ -33,9 +33,50 @@
 /***** Objekte 1 Daten/Funktionen *******/
 
 
+// let person = {
+//                 firstName: "Lukas" , 
+//                 familyName: "Gedrat",
+//                 salary:[120000, 160000],
+//                 pemission: true,
+//                 sayHello:
+//                     function(){
+//                         return "Hello," + this.firstName + "!";
+//                     }
+//             };
 
+// output(person);
+// output(person.firstName);
+// output(person.familyName);
+// output(person.salary[1]);
+// output(person.pemission);
 
+// const text = "Ich bin " + person.firstName +
+//                 " und verdiene " + person.salary[1] +
+//                 " p.a";
 
+// output(text);
+// output(person.sayHello());
+
+//Hierarchie in Objekten  
+// Tiefer, tiefer - Irgendwo in der Tiefe gibt es ein Licht // K.Bush
+// Der Baikalsee ist mit 1642 m der tiefste See der Erde. ...
+// deep - deeper - deepest
+// nested object {{{}}}
+
+let baikal = {
+     value: "10m",
+     deep:{
+        deeper: {
+                    deepest:"Das Licht - auf 164m!",
+                    temperature: "4 Grad Celsius"
+
+                }
+             }
+};                
+output(baikal);
+output(baikal.value);
+output(baikal.deep.deeper.deepest);
+output(baikal.deep.deeper.temperature);
 
 
 /** Ausgabe */
